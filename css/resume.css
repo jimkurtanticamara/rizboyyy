@@ -1,0 +1,78 @@
+* {
+    padding: 0px 25px;
+}
+
+.body {
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/001/849/553/small_2x/modern-gold-background-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.div1 {
+    color: blue;
+    text-decoration: underline;
+    font-style: italic;
+
+}
+
+.div2 {
+    border-style: solid;
+    background-color: pink;
+    border-radius: 20px;
+}
+
+.div3 {
+    background-color: #356152;
+    border-radius: 50px;
+    height: 120px;
+    padding: 30px;
+    text-align: justify;
+
+    font-size: 17px;
+    box-shadow: 10px 15px 4px rgb(0, 0, 0);
+    border-color: rgb(192, 29, 56);
+    border: 3px solid rgb(57, 124, 124);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.div4 {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+   
+}
+
+.div5 {
+    text-align: center;
+    color:rgb(196, 196, 1)
+}
+
+.div6 {
+    border: 3px solid rgb(138, 21, 21);
+    border-radius: 40px;
+    border-color: rgb(32, 8, 139);
+    box-shadow: 10px 15px 5px rgb(0, 0, 0);
+    background-color: #f1f1f1;
+}
+
+.div7 :hover {
+    color: rgb(1, 24, 27);
+    text-shadow: 2px 5px rgb(26, 99, 117);
+}
+.div7{
+    border: 3px solid black;
+    border-radius: 40px;
+    border-color: rgb(3, 54, 54);
+    box-shadow: 10px 15px 5px black;
+    padding: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #cfc2c2;
+}
+
+.div8 {
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 100px;
+    border-color: rgb(252, 252, 252);
+    box-shadow: 10px 15px 5px black;
+    background-color: #f3f5f4;
+}

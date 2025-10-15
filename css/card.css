@@ -1,0 +1,227 @@
+.div{    
+  text-align: center;
+}
+
+.div1{
+    display: inline-block;
+    border-style: solid;
+    padding:10px 10px;
+    width: 200px;
+    border-radius:50px;
+    border: solid;
+    border: color rgb(22, 22, 77);
+    text-align: center;
+     background-color: rgb(25, 196, 139);
+     margin: 13px;
+     box-shadow: black;
+}
+.div1:hover{
+    scale: 1.05;
+    transition: ease-in 300ssms;
+}
+
+
+.div2{
+    display: inline-block;
+     border-style: solid;
+    padding:10px 10px;
+    width: 250px;
+    border-radius:30px;
+    border: solid;
+    border: color rgb(224, 8, 8);
+    text-align: center;
+    background-color: blueviolet;
+    margin: 13px;
+     box-shadow: black;
+}
+.div2:hover{
+    scale: 1.05;
+    transition: ease-in 300ms;
+}
+.div3{
+    display: inline-block;
+     border-style: solid;
+    padding:10px 10px;
+    width: 270px;
+    border-radius:30px;
+    border: solid;
+    border: color rgb(219, 16, 209);
+    text-align: center;
+    background-color: brown;
+    margin: 13px;
+     box-shadow: black;
+}
+.div3:hover{
+    scale: 1.05;
+    transition: ease-in 300ms;
+}
+.div4{
+    display: inline-block;
+     border-style: solid;
+    padding:10px 10px;
+    width: 220px;
+    border-radius:30px;
+    border: solid;
+    border: color rgb(7, 103, 230);
+    text-align: center;
+    background-color: rgb(116, 76, 76);
+    margin: 13px;
+     box-shadow: black;
+}
+.div4:hover{
+    scale: 1.06;
+    transition: ease-in 300ms;
+}
+.div5{
+    display: inline-block;
+     border-style: solid;
+    padding:10px 10px;
+    width: 280px;
+    border-radius:30px;
+    border: solid;
+    border: color rgb(7, 103, 230);
+    text-align: center;
+    background-color: rgb(180, 77, 77);
+    margin: 13px;
+     box-shadow: black;
+}
+.div5:hover{
+    scale: 1.06;
+    transition: ease-in 300ms;
+}
+.div6{
+    display: inline-block;
+     border-style: solid;
+    padding:10px 10px;
+    width: 220px;
+    border-radius:30px;
+    border: solid;
+    border: color rgb(7, 103, 230);
+    text-align: center;
+    background-color: rgb(136, 189, 12);
+    margin: 13px;
+     box-shadow: black;
+}
+.div6:hover{
+    scale: 1.06;
+    transition: ease-in 300ms;
+}
+.div7{
+    display: inline-block;
+     border-style: solid;
+    padding:10px 10px;
+    width: 220px;
+    border-radius:30px;
+    border: solid;
+    border: color rgb(7, 103, 230);
+    text-align: center;
+    background-color: rgb(10, 190, 64);
+    margin: 13px;
+     box-shadow: black;
+}
+.div7:hover{
+    scale: 1.06;
+    transition: ease-in 300ms;
+}
+.div8{
+    display: inline-block;
+     border-style: solid;
+    padding:10px 10px;
+    width: 220px;
+    border-radius:30px;
+    border: solid;
+    border: color rgb(7, 103, 230);
+    text-align: center;
+    background-color: rgb(13, 199, 199);
+    margin: 13px;
+     box-shadow: black;
+}
+.div8:hover{
+    scale: 1.06;
+    transition: ease-in 300ms;
+}
+.div9{
+    display: inline-block;
+     border-style: solid;
+    padding:10px 10px;
+    width: 220px;
+    border-radius:30px;
+    border: solid;
+    border: color rgb(7, 103, 230);
+    text-align: center;
+    background-color: rgb(97, 50, 50);
+    margin: 13px;
+     box-shadow: black;     
+}
+.div9:hover{
+    scale: 1.06;
+    transition: ease-in 300ms;
+}
+.div10{
+    display: inline-block;
+     border-style: solid;
+    padding:10px 10px;
+    width: 220px;
+    border-radius:30px;
+    border: solid;
+    border: color rgb(7, 103, 230);
+    text-align: center;
+    background-color: rgb(231, 74, 74);
+    margin: 13px;
+     box-shadow: black;     
+}
+.div10:hover{
+    scale: 1.06;
+    transition: ease-in 300ms;
+}
+.div11{
+    display: inline-block;
+     border-style: solid;
+    padding:10px 10px;
+    width: 220px;
+    border-radius:30px;
+    border: solid;
+    border: color rgb(7, 103, 230);
+    text-align: center;
+    background-color: rgb(221, 104, 104);
+    margin: 13px;
+     box-shadow: black;     
+}                    
+.div11:hover{
+    scale: 1.06;
+    transition: ease-in 300ms;
+}
+.div12{
+    display: inline-block;
+     border-style: solid;
+    padding:10px 10px;
+    width: 220px;
+    border-radius:30px;
+    border: solid;
+    border: color rgb(7, 103, 230);
+    text-align: center;
+    background-color: rgb(221, 104, 104);
+    margin: 13px;
+     box-shadow: black;     
+}                    
+.div12:hover{
+    scale: 1.06;
+    transition: ease-in 300ms;
+}
+.div13{
+    display: inline-block;
+     border-style: solid;
+    padding:10px 10px;
+    width: 320px;
+    border-radius:50px;
+    border: solid;
+    border: color rgb(7, 103, 230);
+    text-align: center;
+    background-color: rgb(221, 104, 104);
+    margin: 13px;
+     box-shadow: black;     
+}                    
+.div13:hover{
+    scale: 1.06;
+    transition: ease-in 300ms;
+}

@@ -1,0 +1,174 @@
+body {
+  background-repeat: no-repeat;
+  background-size: 400%;
+  background-image: url(https://unblast.com/wp-content/uploads/2021/01/Space-Background-Images.jpg);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.toy {
+  color: white;
+}
+
+
+.tibay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #2b1e0fd8;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 10px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.459);
+}
+
+
+.toy {
+  font-size: 2rem;
+  user-select: none;
+}
+
+
+.tomboy {
+  display: flex;
+  gap: 50px;
+  font-weight: 500;
+  font-size: 1rem;
+  user-select: none;
+}
+
+
+.tomboy span:hover {
+  color: #3e3bff88;
+  cursor: pointer;
+}
+
+.tomboy a.active {
+  color: #3b4fffb9;
+
+}
+
+.tomboy span::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 5;
+  width: 0%;
+  height: 5px;
+  background: #3bff45b7;
+  transition: width 0.3s ease;
+}
+
+.tomboy span:hover::after {
+  width: 100%;
+}
+
+
+@keyframes fadeDown {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.boboy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 100px;
+  min-height: 80vh;
+  color: rgba(255, 255, 255, 0.808);
+}
+
+.boboy2{
+  max-width: 600px;
+  margin-bottom: 290px;
+}
+
+.boboy2 h2 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.boboy2 .highlight {
+  color: #3bffffee;
+}
+
+.boboy2 p {
+  font-size: 1.5rem;
+  color: #ff3b3b;
+  margin-bottom: 30px;
+}
+
+.picture {
+  width: 350px;
+  border-radius: 12px;
+  border: 4px solid #f15454;
+  box-shadow: 0 0 25px rgba(255, 59, 59, 0.6);
+  margin-top: -300px;
+  height: 100%;
+  padding-right: 0px;
+}
+
+.in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 1s ease forwards;
+}
+
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.me {
+  padding: 100px 150px;
+  background-color: rgba(15, 43, 16, 0.726);
+  color: white;
+  text-align: center;
+  border-radius: 12px;
+  margin: 50px auto;
+  max-width: 900px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.685);
+}
+
+.me h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ff3bbe;
+  ;
+}
+
+.me p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.tukwa2 {
+  float: left;
+  margin-right: 20px;
+  border-radius: 12px;
+  border: 4px solid #f15454;
+  box-shadow: 0 0 25px rgba(255, 59, 59, 0.6);
+}
+.one {
+  padding: 100px 150px;
+  background-color: rgba(15, 43, 16, 0.726);
+  color: white;
+  text-align: center;
+  border-radius: 12px;
+  margin: 50px auto;
+  max-width: 900px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.685);
+}
