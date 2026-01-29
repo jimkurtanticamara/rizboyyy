@@ -12,7 +12,7 @@ include "resources/navigation.php";
   <div>
     <h1>Create user</h1>
     <form action="" method="POST">
-      <form action="functions/createUser.php"
+      <form action="functions/createUser.php">
         <label for="">name</label> 
         <label type="text">name</label> 
         <label for="">name</label> 
