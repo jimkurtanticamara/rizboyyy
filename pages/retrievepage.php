@@ -47,7 +47,7 @@ foreach ($list as $item) {
     <td><?= $item["age"] ?></td>
     <td><?= $item["address"] ?></td>
     <td><?= $item["username"] ?></td>
-    <td><button>view</td>
+    <td><a href= "viewpage.php?user_id=<?= $item['user_id']?>">view</a></td>
  </tr>
  <?php
 }

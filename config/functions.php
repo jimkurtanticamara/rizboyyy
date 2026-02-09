@@ -1,31 +1,62 @@
 <?php
-include "connection.php";
+function retrieveALLuser()
 
-function retrieveAllUsers(){
+{
+    include "connection.php";
 
-$sql = "SELECT * FROM user";
-$stmnt = $conn -> prepare($sql);
-$stmnt -> execute();
+    $sql = "SELECT * FROM user";
+    $stmnt = $conn->prepare($sql);
+    $stmnt->execute();
 
-return $stmnt -> fetchAll(PDO::FETCH_ASSOC);
-
+    return $stmnt->fetchALL(PDO::FETCH_ASSOC);
 }
 
 
-function loginAuth($username, $password){
+
+
+function loginAuth($usernames, $passwords)
+{
+
     include "connection.php";
 
     $sql = "SELECT * FROM user WHERE username = :username AND password = :password";
-    $stmnt = $conn -> prepare($sql);
-    $stmnt -> execute ([
-      "username" => $username,
-      "passwrod" => $password
+    $stmnt = $conn->prepare($sql);
+    $stmnt->execute([
+        "username" => $usernames,
+        "password" => $passwords
 
     ]);
 
-    $conn = $stmnt -> rowCount();
+    $count = $stmnt->rowCount();
 
     return $count;
-
 }
-?>
+function getUser($user_id)
+{
+    include "connection.php";
+
+    $sql = "SELECT * FROM user WHERE user_id = :id";
+    $stmnt = $conn->prepare($sql);
+    $stmnt->execute([
+        "id" => $user_id
+    ]);
+
+    return $stmnt->fetchAll(PDO::FETCH_ASSOC);
+}
+
+function updateUser($user_id, $name, $age, $address, $username, $password)
+{
+    include "connection.php";
+
+    $sql = "UPDATE user SET name=:name, age=:age, address=:address, password=:password WHERE user_id=:user_id";
+    $stmnt = $conn->prepare($sql);
+    $stmnt->execute([
+        "name" => $name,
+    "age" => $age,
+    "address" => $address,
+    "username" => $usermane,
+    "password" => $password,
+    "user_id" => $user_id,
+        ]);
+    return $stmnt->fetchAll(PDO::FETCH_ASSOC);
+}
