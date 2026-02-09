@@ -20,15 +20,15 @@ include "resources/header.php";
 
 <body>
     <h1>View and Update Page</h1>
-    <label for="namez">Name</label> <br>
-    <input name="namez" type="text" value="<?= $getUser[0]['namez'] ?>"> <br>
+    <label for="name">Name</label> <br>
+    <input name="name" type="text" value="<?= $getUser[0]['name'] ?>"> <br>
     <label for="age">Age</label> <br>
-    <input name="age" type="number" value="<?= $getUser[0]['age'] ?>"><br>
+    <input name="age" type="text" value="<?= $getUser[0]['age'] ?>"><br>
     <label for="address">Address</label> <br>
-    <input name="address" type="number" value="<?= $getUser[0]['address'] ?>"> <br>
+    <input name="address" type="text" value="<?= $getUser[0]['address'] ?>"> <br>
     <label for="username">Username</label> <br>
-    <input name="username" type="number" value="<?= $getUser[0]['username'] ?>"><br>
+    <input name="username" type="text" value="<?= $getUser[0]['username'] ?>"><br>
     <label for="password">Password</label> <br>
-    <input name="password" type="number" value="<?= $getUser[0]['password'] ?>"><br>
+    <input name="password" type="text" value="<?= $getUser[0]['password'] ?>">
 <button>edit</button>
 </body>
